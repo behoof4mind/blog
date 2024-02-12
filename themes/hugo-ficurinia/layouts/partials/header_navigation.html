@@ -5,7 +5,7 @@
     <ul id="main-nav">
         <li><a href="/">{{ i18n "home" }}</a></li>
         {{ if (.Site.Params.showPostsLink | default true) }}
-            <li><a href="/posts/">{{ i18n "posts" }}</a></li>
+            <li><a href="/blog/posts/">{{ i18n "posts" }}</a></li>
         {{ end }}
         {{ range site.Params.extraContentDirs }}
             <li><a href="/{{ . }}/">{{ . | humanize }}</a></li>
