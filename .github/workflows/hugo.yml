@@ -53,6 +53,7 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
+          BLOG_VERSION: ${{ github.sha }}
         run: |
           hugo \
             --minify \
@@ -61,7 +62,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-          name: blog-$GITHUB_SHA
+          name: blog-${{ github.sha }}
 
   # Deployment job
   deploy:
@@ -75,4 +76,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          artifact_name: blog-$GITHUB_SHA
+          artifact_name: blog-${{ github.sha }}

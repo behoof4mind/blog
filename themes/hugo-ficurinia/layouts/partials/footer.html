@@ -8,4 +8,7 @@
     <p><small>
         {{ i18n "themeCopyrightNotice" | safeHTML }}
     </small></p>
+    <p><small>
+        {{ os.Getenv "BLOG_VERSION" | default "0.1.0" }}
+    </small></p>
 </footer>

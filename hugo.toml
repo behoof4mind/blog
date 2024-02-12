@@ -165,3 +165,7 @@ summaryLength = 70  # number of words for article summaries
 # it allows to output the article list as paged JSON so that "pages" can be retrieved via javascript
 [outputs]
     home = ["HTML", "JSON"]
+
+[security]
+  [security.funcs]
+    getenv = ['^BLOG_']
