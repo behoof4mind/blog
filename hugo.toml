@@ -1,4 +1,4 @@
-baseURL = "https://behoof4mind.github.io/blog/"
+baseURL = "https://behoof4mind.github.io/blog"
 theme = "hugo-ficurinia"
 title = "Denny's blog"
 languageCode = "en"
@@ -27,10 +27,10 @@ summaryLength = 70  # number of words for article summaries
     # requires setting `homeSinglePage`
     # goes well with extraContentDirs
     showSinglePageAsHome = false
-    homeSinglePage = "/blog/home"
+    homeSinglePage = "/home"
 
     # It's best to put these icons in the "static" folder of your site
-    logo = "logo.svg"
+    logo = "../logo.svg"
     favicon = "/favicon.png"  # 32x32
     faviconIco = "/favicon.ico"  # 32x32
     appletouch = "/apple-touch-icon.png"  # 180x180
@@ -136,15 +136,30 @@ summaryLength = 70  # number of words for article summaries
         weight = 10
     # these links (menu.icons) will be added as icon links below the main nav
     [[menu.icons]]
-        identifier = "gitlab"
+        identifier = "github"
         name = "GitLab"
         url = "https://gitlab.com/dlavrushko"
         weight = 10
     [[menu.icons]]
-        identifier = "gnome"
+        identifier = "gitlab"
+        name = "GitLab"
+        url = "https://gitlab.com/dlavrushko"
+        weight = 20
+    [[menu.icons]]
+        identifier = "linkedin"
         name = "GNOME GitLab"
         url = "https://gitlab.gnome.org/gabmus"
-        weight = 20
+        weight = 30
+    [[menu.icons]]
+        identifier = "telegram"
+        name = "GNOME GitLab"
+        url = "https://gitlab.gnome.org/gabmus"
+        weight = 40
+    [[menu.icons]]
+        identifier = "instagram"
+        name = "GNOME GitLab"
+        url = "https://gitlab.gnome.org/gabmus"
+        weight = 50
 
 # this section is necessary if you want infinite scrolling
 # it allows to output the article list as paged JSON so that "pages" can be retrieved via javascript
