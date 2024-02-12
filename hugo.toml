@@ -16,6 +16,7 @@ summaryLength = 70  # number of words for article summaries
 [params]
     author = "Denny Lavrushko"
     description = "Just my thoughts about IT things and things around."  # this will be added as metadata
+    subPath = "/blog"
 
     posts = "posts"  # content directory where to find home page posts; default searches in "posts" and "post"
     showPostsLink = true  # show or hide the link to the simple post list
@@ -26,7 +27,7 @@ summaryLength = 70  # number of words for article summaries
     # requires setting `homeSinglePage`
     # goes well with extraContentDirs
     showSinglePageAsHome = false
-    homeSinglePage = "/home"
+    homeSinglePage = "/blog/home"
 
     # It's best to put these icons in the "static" folder of your site
     logo = "logo.svg"

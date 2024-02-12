@@ -3,14 +3,14 @@
     <div class="titleAndSearchContainer">
         <div id="titleContainer">
             {{ if not (.Site.Params.logoRightOfTitle | default false) }}
-                <a class="unstyledLink" href="/">
+                <a class="unstyledLink" href="{{.Site.Params.subPath}}/">
                     <img src='{{ .Site.Params.Logo | default "/logo.svg" }}' alt='{{ .Site.Params.LogoAltText | default "Logo" }}'/>
                 </a>
             {{ end }}
             <div class="rightOfLogo">
                 <div class="titleAndHamburger">
                     <h1>
-                        <a class="unstyledLink" href="/">{{ .Site.Title | default "Ficurinia" }}</a>
+                        <a class="unstyledLink" href="{{.Site.Params.subPath}}/">{{ .Site.Title | default "Ficurinia" }}</a>
                         {{ if .Site.Params.logoRightOfTitle | default false }}
                             <img src='{{ .Site.Params.Logo | default "/logo.svg" }}' alt='{{ .Site.Params.LogoAltText | default "Logo" }}'/>
                         {{ end }}
