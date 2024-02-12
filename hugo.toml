@@ -7,7 +7,7 @@ defaultContentLanguage = "en"
 # this will be included in the footer after the current year the site is last
 # built, followed by the (c) symbol
 # you can use markdown inside this field
-copyright = "The content of this blog is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)"
+copyright = "The content of this blog is licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) License"
 
 paginate = 5  # number of articles per page in the index
 summaryLength = 70  # number of words for article summaries
