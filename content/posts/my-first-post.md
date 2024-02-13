@@ -1,8 +1,13 @@
-+++
-title = 'My First Post'
-date = 2024-01-14T07:07:07+01:00
-draft = false
-+++
+---
+id: default
+aliases: []
+tags:
+- test
+date: 2024-02-13T13:02:02+01:00
+draft: false
+title: Untitled
+---
+
 ## Introduction
 
 This is **bold** text, and this is *emphasized* text.
