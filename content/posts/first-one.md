@@ -9,6 +9,8 @@ date: "2024-02-13T20:02:43+01:00"
 draft: false
 id: first-one
 path: /Users/dlavrushko/MyGitHub/notes/10-hugo-articles/why.md
+tags:
+- thoughts
 title: Why
 ---
 
