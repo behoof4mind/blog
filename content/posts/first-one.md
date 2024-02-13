@@ -24,7 +24,7 @@ Well, first of all - Hello World!
 
 2.  Feel better.  
     Because in this blog I don't have enough time on TikTok or any other kind of
-    shorts or timekillers.
+    shorts or time-killers.
 
 3.  For fun.  
     That could be funny if any AI model will take my personal blog as a part of its
@@ -61,7 +61,7 @@ I can guarantee:
 
 ### Next topics that I have in my head and wanted to describe soon
 
-There is no ortder, just bunch of things that will be probably descrided soon:  
+There is no order, just bunch of things that will be probably described soon:  
 "DevOps tools", "Kubernetes Tools", "How I manage my apps and their configs",
 "Why neovim in 2024", "Why Dvorak", "Life-Work balance", "How to have
 notes-and-blog as a service", "How to loose weight when you 35",
