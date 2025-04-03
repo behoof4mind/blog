@@ -1,4 +1,4 @@
-baseURL = "https://behoof4mind.github.io/blog"
+baseURL = "https://blog.behoof.dev"
 theme = "hugo-ficurinia"
 title = "Denny's blog"
 languageCode = "en"
