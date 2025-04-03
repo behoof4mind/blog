@@ -141,11 +141,6 @@ summaryLength = 70  # number of words for article summaries
         url = "https://github.com/behoof4mind"
         weight = 10
     [[menu.icons]]
-        identifier = "gitlab"
-        name = "GitLab"
-        url = "https://gitlab.com/behoof4mind"
-        weight = 20
-    [[menu.icons]]
         identifier = "linkedin"
         name = "Linkedin"
         url = "https://www.linkedin.com/in/beehoof4mind/"
@@ -155,11 +150,6 @@ summaryLength = 70  # number of words for article summaries
         name = "Telegram"
         url = "https://t.me/beehoof4mind"
         weight = 40
-    [[menu.icons]]
-        identifier = "instagram"
-        name = "Instagram"
-        url = "https://www.instagram.com/beh00f4mind"
-        weight = 50
 
 # this section is necessary if you want infinite scrolling
 # it allows to output the article list as paged JSON so that "pages" can be retrieved via javascript
