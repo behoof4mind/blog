@@ -1,4 +1,4 @@
-baseURL = "https://blog.behoof.dev/blog"
+baseURL = "https://blog.behoof.dev"
 theme = "hugo-ficurinia"
 title = "Denny's blog"
 languageCode = "en"
@@ -16,7 +16,7 @@ summaryLength = 70  # number of words for article summaries
 [params]
     author = "Denny Lavrushko"
     description = "Just my thoughts about IT things and things around."  # this will be added as metadata
-    subPath = "/blog"
+    # subPath = "/blog"
 
     posts = "posts"  # content directory where to find home page posts; default searches in "posts" and "post"
     showPostsLink = true  # show or hide the link to the simple post list
