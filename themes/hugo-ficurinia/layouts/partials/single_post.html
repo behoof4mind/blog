@@ -52,3 +52,17 @@
 {{- partial "commento.html" . -}}
 {{- partial "cactus_chat.html" . -}}
 {{- partial "related_articles.html" . -}}
+<div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    this.page.url = '{{ .Permalink }}'; // Use Hugo's permalink for the page URL
+    this.page.identifier = '{{ .File.Path }}'; // Use the file path as a unique identifier
+  };
+  (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://dennys-blog.disqus.com/embed.js'; // Replace YOUR_DISQUS_SHORTNAME
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the comments.</noscript>
